@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:  #242323;
+    background-color:  #2e2c2c;
 }
 
 #calculator{
@@ -28,7 +28,7 @@ body {
     border-style: none;
     margin: 1rem 0;
     text-align: right;
-    background-color: #EEFFCC;
+    background-color: #EEFFCC;   
 }
 
 .row{
@@ -48,9 +48,9 @@ body {
     border-style: none;
     outline: none;
     cursor: pointer;
-    background-color: #696969;
+    background-color: #393636;
     color: #fff;
-    box-shadow: 0 0 7px 5px #252525;
+    box-shadow: inset -2px -2px 5px 6px #272626;
 }
 
 .row button:hover{
@@ -60,6 +60,7 @@ body {
 .row #clear{
     width: 45%;
     background-color: #FF6F61;
+    box-shadow: inset -2px -2px 5px 6px #bb4439;
 }
 
 .row #plus{
@@ -69,4 +70,5 @@ body {
 
 .row #equal{ 
     background-color: #1E90FF;
+    box-shadow: inset -2px -2px 5px 6px #164f88;
 }
